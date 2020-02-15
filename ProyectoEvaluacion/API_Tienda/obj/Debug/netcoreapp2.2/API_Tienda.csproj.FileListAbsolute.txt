@@ -1,0 +1,48 @@
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.deps.json
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.runtimeconfig.json
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.runtimeconfig.dev.json
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.dll
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.pdb
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.RazorAssemblyInfo.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.RazorAssemblyInfo.cs
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.AssemblyInfo.cs
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.RazorTargetAssemblyInfo.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.dll
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.pdb
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.deps.json
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.runtimeconfig.json
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.runtimeconfig.dev.json
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.dll
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.pdb
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.RazorAssemblyInfo.cache
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.RazorAssemblyInfo.cs
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.AssemblyInfo.cs
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.RazorTargetAssemblyInfo.cache
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.dll
+C:\Users\usuario\Documents\Visual Studio 2019\Projects\Proyectos evaluacion\TiendaOnline\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.pdb
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.deps.json
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.runtimeconfig.json
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.runtimeconfig.dev.json
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.dll
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\bin\Debug\netcoreapp2.2\API_Tienda.pdb
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.csprojAssemblyReference.cache
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.RazorAssemblyInfo.cache
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.RazorAssemblyInfo.cs
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.AssemblyInfoInputs.cache
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.AssemblyInfo.cs
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.RazorTargetAssemblyInfo.cache
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.dll
+C:\Users\seloram\Documents\ProyectoEvaluacion\API_Tienda\obj\Debug\netcoreapp2.2\API_Tienda.pdb

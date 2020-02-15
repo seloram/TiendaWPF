@@ -1,0 +1,10 @@
+C:\Users\seloram\source\repos\ProyectoEvaluacion\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\seloram\source\repos\ProyectoEvaluacion\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\seloram\source\repos\ProyectoEvaluacion\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\seloram\source\repos\ProyectoEvaluacion\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\seloram\source\repos\ProyectoEvaluacion\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+C:\Users\seloram\Documents\ProyectoEvaluacion\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\seloram\Documents\ProyectoEvaluacion\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\seloram\Documents\ProyectoEvaluacion\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+C:\Users\seloram\Documents\ProyectoEvaluacion\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\seloram\Documents\ProyectoEvaluacion\CapaEntidades\obj\Debug\CapaEntidades.pdb

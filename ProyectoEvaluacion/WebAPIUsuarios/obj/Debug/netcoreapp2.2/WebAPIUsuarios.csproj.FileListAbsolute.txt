@@ -1,0 +1,30 @@
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\WebAPIUsuarios.deps.json
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\WebAPIUsuarios.runtimeconfig.json
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\WebAPIUsuarios.runtimeconfig.dev.json
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\WebAPIUsuarios.dll
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\WebAPIUsuarios.pdb
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.RazorAssemblyInfo.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.RazorAssemblyInfo.cs
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.AssemblyInfo.cs
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.RazorTargetAssemblyInfo.cache
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.dll
+C:\Users\usuario\Documents\Visual Studio 2017\Projects\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.pdb
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\WebAPIUsuarios.deps.json
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\WebAPIUsuarios.runtimeconfig.json
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\WebAPIUsuarios.runtimeconfig.dev.json
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\WebAPIUsuarios.dll
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\bin\Debug\netcoreapp2.2\WebAPIUsuarios.pdb
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.csprojAssemblyReference.cache
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.RazorAssemblyInfo.cache
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.RazorAssemblyInfo.cs
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.AssemblyInfoInputs.cache
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.AssemblyInfo.cs
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.RazorTargetAssemblyInfo.cache
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.dll
+C:\Users\seloram\Downloads\Ejemplo ORM\Ejemplo ORM\WebAPIUsuarios\obj\Debug\netcoreapp2.2\WebAPIUsuarios.pdb

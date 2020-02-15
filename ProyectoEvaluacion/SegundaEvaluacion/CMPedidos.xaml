@@ -1,0 +1,152 @@
+﻿<UserControl x:Class="SegundaEvaluacion.CMPedidos"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SegundaEvaluacion"
+             mc:Ignorable="d" 
+             d:DesignHeight="755" d:DesignWidth="1186" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <!-- Creo un recurso de tipo coleccion vista, para poder aplicar filtros sobre el -->
+
+        <CollectionViewSource  x:Key="listaProductos"  Source="{Binding}"/>
+
+
+    </UserControl.Resources>
+    <Grid Margin="0,0,0,0" Height="755" HorizontalAlignment="Right" Width="1186">
+        <Grid x:Name="ventanaUsuarios" Width="1186" Height="755" VerticalAlignment="Bottom" Margin="0,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="312*"/>
+                <ColumnDefinition Width="281*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF00556E" Offset="1"/>
+                    <GradientStop Color="#FF006E8F"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <StackPanel Orientation="Vertical" Grid.ColumnSpan="2" />
+            <Label x:Name="titulo" Content="NUEVO PEDIDO" Style="{StaticResource jugando}" FontSize="48" Grid.ColumnSpan="2" Margin="10,0"/>
+            <Rectangle  HorizontalAlignment="Left" Height="82" Margin="10,68,0,0" Stroke="Black" VerticalAlignment="Top" Width="1166" Opacity="0.4" Grid.ColumnSpan="2">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBox Name="buscarUsuario" IsReadOnly="True" Style="{StaticResource t_inser_usu_azul}" Text="Buscar Usuario" HorizontalAlignment="Left" 
+                     Height="62" Margin="27,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="286" 
+                      GotFocus="buscarUsuario_GotFocus"/>
+            <TextBox x:Name="apellidoUsu" Style="{StaticResource t_inser_usu_azul}" IsReadOnly="True" Visibility="Hidden" Text="Apellidos" HorizontalAlignment="Left" Height="62" Margin="338,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="479" Grid.ColumnSpan="2" />
+            <Rectangle HorizontalAlignment="Left" Opacity="0.4" Height="428" Margin="10,155,0,0" Stroke="Black" VerticalAlignment="Top" Width="535">
+
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+
+            </Rectangle>
+            <DataGrid x:Name="gridArticulos" Style="{StaticResource grids}" ColumnHeaderStyle="{StaticResource HeaderStyle2}" HorizontalAlignment="Left" Height="365" Margin="10,218,0,0" 
+                      VerticalAlignment="Top" Width="535" ItemsSource="{Binding Source={StaticResource listaProductos}}" MouseDown="DataGrid_MouseDown" MouseDoubleClick="gridArticulos_MouseDoubleClick">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="*" Binding="{Binding Path=Nombre}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black"  Header="Nombre"/>
+                    <DataGridTextColumn Binding="{Binding Path=Pvp}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black" Width="*" Header="Pvp"/>
+                    <DataGridTextColumn Binding="{Binding Path=MarcaID}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="White" Width="*" Header="MarcaID"/>
+                    <DataGridTextColumn Binding="{Binding Path=TipoArticuloID, Mode=TwoWay}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="White" Width="*" Header="TipoArticuloID" />
+
+                    <!-- Creo una columna con un tipo personalizado. Va contener un datepicker y un
+                         ProgressBar, pero podemos configurarlo como queramos -->
+                </DataGrid.Columns>
+            </DataGrid>
+            <TextBox x:Name="resultado" IsReadOnly="True" FontSize="18" HorizontalAlignment="Center" Height="68" 
+                Margin="10,677,79,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="535" 
+                LostFocus="resultado_LostFocus" />
+            <Rectangle HorizontalAlignment="Left" Opacity="0.4" Height="428" Margin="545,155,0,0" Stroke="Black" VerticalAlignment="Top" Width="631" Grid.ColumnSpan="2">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBox  x:Name="filtrarNombre" Style="{StaticResource t_inser_usu_azul}" HorizontalAlignment="Center" Height="58" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,160,362,0" Width="252" KeyDown="nombreProducto" TextChanged="filtrarNombre_TextChanged" LostFocus="filtrarNombre_LostFocus" />
+            <TextBox x:Name="filtrarTipo" Style="{StaticResource t_inser_usu_azul}" HorizontalAlignment="Center" Height="60" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="288,0,79,537" Width="257"  KeyDown="filtrarTipo_KeyDown" TextChanged="filtrarTipo_TextChanged" LostFocus="filtrarTipo_LostFocus"/>
+
+            <!--
+            <DataGrid x:Name="gridLineaPed" Style="{StaticResource grids}" ItemsSource="{Binding}" CanUserAddRows="False"
+                      ColumnHeaderStyle="{StaticResource HeaderStyle2}" Grid.ColumnSpan="2" HorizontalAlignment="Left" 
+                      Height="428" Margin="550,155,0,0" VerticalAlignment="Top" Width="626" CellEditEnding="gridLineaPed_CellEditEnding" 
+                      SelectedCellsChanged="gridLineaPed_SelectedCellsChanged"  
+                      CurrentCellChanged="gridLineaPed_CurrentCellChanged" SelectionMode="Single" SelectionUnit="Cell" 
+                      SelectionChanged="gridLineaPed_SelectionChanged" TextInput="gridLineaPed_TextInput" KeyDown="gridLineaPed_KeyDown"   >
+                <DataGrid.Columns>
+                    <DataGridTextColumn x:Name="linea" Width="*" Binding="{Binding Path=Linea}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black"  Header="Linea"/>
+                    <DataGridTextColumn x:Name="idArticulo" Binding="{Binding Path=ArticuloID}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black" Width="*" Visibility="Collapsed" Header="ArticuloID"/>
+                    <DataGridTextColumn x:Name="descArticu"  IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black" Width="*" Header="Articulo"/>
+                    <DataGridTextColumn x:Name="importe" Binding="{Binding Path=Importe}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black" Width="*" Header="Importe"/>
+                    <DataGridTextColumn x:Name="cantidad" Binding="{Binding Path=Cantidad}" IsReadOnly="False" CellStyle="{StaticResource datos}" Foreground="Black" Width="*" Header="Cantidad" />
+
+                     Creo una columna con un tipo personalizado. Va contener un datepicker y un
+                         ProgressBar, pero podemos configurarlo como queramos 
+                </DataGrid.Columns>
+            </DataGrid>
+    -->
+            <TextBox  x:Name="iva" IsReadOnly="True" Padding="10,0,0,0" Style="{StaticResource t_inser_usu_azul}" HorizontalContentAlignment="Left" HorizontalAlignment="Center" Height="47" TextWrapping="Wrap" 
+                Text="Iva:.................................&#x9;" VerticalAlignment="Top" Margin="550,646,10,0" Width="626" KeyDown="nombreProducto" Grid.ColumnSpan="2"/>
+            <TextBox  x:Name="totalFactura" IsReadOnly="True" Padding="10,0,0,0" Style="{StaticResource t_inser_usu_azul}" HorizontalContentAlignment="Left" HorizontalAlignment="Center" Height="47" TextWrapping="Wrap" 
+                Text="Total Factura:..............." VerticalAlignment="Top" Margin="550,698,10,0" Width="626" KeyDown="nombreProducto" Grid.ColumnSpan="2"/>
+            <Button Name="aceptar" Style="{StaticResource botones}" Background="{StaticResource botonesMenu}" Foreground="White" Content="Aceptar" HorizontalAlignment="Left" 
+                    Margin="10,594,0,0" VerticalAlignment="Top" Width="270" Height="47" FontSize="40" Click="aceptar_Click"/>
+            <TextBox IsReadOnly="True" x:Name="total" Padding="10,0,0,0" Style="{StaticResource t_inser_usu_azul}" HorizontalContentAlignment="Left" HorizontalAlignment="Center" Height="47" TextWrapping="Wrap" 
+                Text="Total sin Iva:.................&#x9;" VerticalAlignment="Top" Margin="550,594,10,0" Width="626" KeyDown="nombreProducto" Grid.ColumnSpan="2"/>
+            <DataGrid x:Name="gridLineaPed" ColumnHeaderStyle="{StaticResource HeaderStyle2}"
+                      Style="{StaticResource grids}" HorizontalAlignment="Left" Height="423" 
+                      Margin="550,160,0,0" ItemsSource="{Binding}" VerticalAlignment="Top" Width="626" Grid.ColumnSpan="2" CellEditEnding="gridLineaPed_CellEditEnding_1" 
+                      SelectedCellsChanged="gridLineaPed_SelectedCellsChanged_1" MouseDown="gridLineaPed_MouseDown" CurrentCellChanged="gridLineaPed_CurrentCellChanged_2" MouseDoubleClick="gridLineaPed_MouseDoubleClick" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn x:Name="linea" Width="70" Binding="{Binding Path=Linea}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black"  Header="Linea"/>
+                    <DataGridTextColumn x:Name="idArticulo" Binding="{Binding Path=ArticuloID}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black" Width="*" Visibility="Collapsed" Header="ArticuloID"/>
+                    <DataGridTextColumn x:Name="descArticu" Binding="{Binding Path=Nombre}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black" Width="*" Header="Articulo"/>
+                    <DataGridTextColumn x:Name="importe" Binding="{Binding Path=Importe}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black" Width="*" Header="Importe"/>
+                    <DataGridTextColumn x:Name="pvp" Binding="{Binding Path=Pvp}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black" Width="*" Visibility="Collapsed" Header="Pvp"/>
+                    <DataGridTextColumn x:Name="cantidad" Binding="{Binding Path=Cantidad}" IsReadOnly="False" CellStyle="{StaticResource datosEditables}" Foreground="Black" Width="95" Header="Cantidad" />
+                  <!--  <DataGridTextColumn x:Name="marca" Binding="{Binding Path=MarcaID}" IsReadOnly="True" CellStyle="{StaticResource datos}" Foreground="Black" Width="*" Header="Marca"/>
+                    <DataGridTextColumn x:Name="tipoArticulo" Binding="{Binding Path=TipoArticulo}" IsReadOnly="False" CellStyle="{StaticResource datos}" Foreground="Black" Width="*" Header="Tipo" />-->
+                    <DataGridTemplateColumn Width="165">
+                        <DataGridTemplateColumn.Header>
+                            <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Text="Datos Adicionales" BorderThickness="0" IsReadOnly="True" 
+                                     Foreground="White" Background="{StaticResource cabecera2}" Height="39"/>
+                        </DataGridTemplateColumn.Header>
+
+                        <!-- Definición del template de visualización de columna. Usaremos un TextBlock -->
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <TextBox  x:Name="marca" IsReadOnly="True" Text="{Binding MarcaID}" Foreground="White" Background="{StaticResource cabecera2}" >
+                                    </TextBox>
+                                    <TextBox x:Name="tipoArticulo" IsReadOnly="True" Text="{Binding TipoArticulo}" Background="{StaticResource cabecera2}" Foreground="White" 
+                                                 />
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+
+                        <!-- Definición del template de edición de columna. Usaremos un DatePicker -->
+                    
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <TextBox  x:Name="mascaraNombre" Text="Nombre*" Style="{StaticResource t_inser_usu_azul}" HorizontalContentAlignment="Center" 
+                      HorizontalAlignment="Center" Height="58" TextWrapping="Wrap" VerticalAlignment="Top" 
+                      Margin="10,160,362,0" Width="252" KeyDown="nombreProducto" TextChanged="filtrarNombre_TextChanged" GotFocus="mascaraNombre_GotFocus" />
+            <TextBox  x:Name="mascaraTipo" Text="Tipo*" Style="{StaticResource t_inser_usu_azul}" HorizontalContentAlignment="Center" 
+                HorizontalAlignment="Center" Height="58" TextWrapping="Wrap" VerticalAlignment="Top" 
+                Margin="288,158,84,0" Width="252" KeyDown="nombreProducto" TextChanged="filtrarNombre_TextChanged" GotFocus="mascaraTipo_TextChanged" />
+            <DatePicker Visibility="Collapsed" Grid.Column="1" HorizontalAlignment="Left" Margin="198,92,0,0" VerticalAlignment="Top" Height="27" Width="189" SelectedDateFormat="Long"/>
+            <TextBox Name="usuarioID" Visibility="Collapsed" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="10,106,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="125"/>
+        </Grid>
+
+    </Grid>
+</UserControl>
